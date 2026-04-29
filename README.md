@@ -16,14 +16,7 @@ tables rendered as figures) and their captions.
 | `figure_bertscore_tps_scatter.pdf` | R2 Q5-1, R5 Q4-3 | BERTScore vs TPS scatter (SRS→SVTP model-level means); Pearson r=−0.601 anti-correlation across 6 open-source models |
 | `table_seed_sensitivity.pdf` | R3 Q4-3, R4 Q4-2, R5 Q4-3 | Per-model compliance/BERTScore sensitivity ratio across 5 retrieval seeds; SCS 5–25×, TPS 4–23× more sensitive than BERTScore |
 
-## Anonymous hosting
+## Notes
 
-Upload to [anonymous.4open.science](https://anonymous.4open.science) or an
-OSF anonymous link before pasting into the rebuttal. Replace every
-`[ANON-LINK: <slug>]` placeholder in the `.tex` files with the actual URL.
-
-## UAI 2026 policy notes
-
-- Links are not required to be followed by reviewers.
-- Links must not identify the authors or institution.
-- Camera-ready deadline: July 8, 2026.
+- Links are provided for reviewer convenience; they are not required to be followed.
+- All files are anonymized and contain no author-identifying information.
