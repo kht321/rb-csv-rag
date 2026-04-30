@@ -16,7 +16,8 @@ short codes (`t1`–`t6`, `f1`, `refs`, `supp`) so each URL fits within the
 | `t6.pdf` | `table_seed_sensitivity.pdf` | R3 Q4-3, R4 Q4-2, R5 Q4-3 | Per-model compliance/BERTScore sensitivity ratio across 5 retrieval seeds; SCS 5–25×, TPS 4–23× more sensitive than BERTScore on SRS→SVTP. |
 | `f1.pdf` | `figure_bertscore_tps_scatter.pdf` | R2 Q5-1, R5 Q4-3 | BERTScore vs TPS scatter (SRS→SVTP, 6 OSS models + Claude); Pearson r = −0.601. |
 | `refs.pdf` | `references_audit.pdf` | R5 Q4-4 | **Rebuttal-time addendum (not part of the supplementary archive).** Bibliography audit for the paper's `references.bib`: each cited entry verified against DBLP, CrossRef, and the authors' Zotero library on 2026-05-01, with clickable DOIs. Five entries listed at the end as verification-failed (4 from round-1 audit + Mills 2015). |
-| `supp.zip` | `supplementary_uai2026_revised.zip` | R5 Q4-1, Q4-2 | Revised supplementary archive. Identical to the originally submitted archive except for: (i) `metadata.json` corrections (cutoff, top_p, Claude model ID, model set), (ii) added `GENERATION.md` with truthful disclosure of the two known synthetic-corpus artifacts, (iii) added `CHANGES.md`. No expansion of the experiment-reproducibility footprint. |
+
+The revised supplementary archive (`supplementary_uai2026_revised.zip`) is uploaded directly via the OpenReview submission as a supplementary attachment; it is not mirrored here.
 
 ## Notes
 
