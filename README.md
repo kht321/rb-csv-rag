@@ -10,3 +10,4 @@
 | `t6.pdf` | Per-model compliance/BERTScore sensitivity ratio across seeds. |
 | `f1.pdf` | BERTScore vs TPS scatter, Pearson r = −0.601. |
 | `refs.pdf` | Bibliography audit (verified against DBLP, CrossRef, Zotero). |
+| `supp.zip` | Revised supplementary archive (original archive + `CHANGES.md`, `GENERATION.md`; corrected `metadata.json` fields per `CHANGES.md`). |
