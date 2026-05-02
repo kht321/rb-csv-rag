@@ -11,3 +11,5 @@
 | [`f1.pdf`](f1.pdf) | BERTScore vs TPS scatter, Pearson r = −0.601. |
 | [`refs.pdf`](refs.pdf) | Bibliography audit (verified against DBLP, CrossRef, Zotero). |
 | [`supp.zip`](supp.zip) | Revised supplementary archive (original + `CHANGES.md` + `GENERATION.md`; metadata.json fields corrected per `CHANGES.md`). |
+| [`clean_r.csv`](clean_r.csv) | Per-model BERTScore vs TPS on full SRS→SVTP corpus vs the artifact-free 80.15% subset (rows where neither SRS source nor SVTP reference contains the doubled-`shall` or audit-trail substrings). Pearson r = −0.598 full / −0.571 clean. |
+| [`clean_r.py`](clean_r.py) | Reproducer script for `clean_r.csv` (uses the paper's TPS implementation in `src/evaluation/compliance_metrics.py`). |
